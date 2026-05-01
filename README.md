@@ -15,7 +15,6 @@ The following software and libraries are required:
 - CVXPY for Python
 - DCCP
 
----
 
 ## Repository Structure
 
@@ -31,7 +30,6 @@ This repository contains the following scripts:
 - `example_regu_mle_shrinkage_cccp_vs_mmcvxpy.py`  
   Implements the core components of the DCR algorithm and compares them with a CVXPY-based reference method.
 
----
 
 ## Usage
 
@@ -49,4 +47,20 @@ From a terminal, navigate to the script directory and run:
 
 ```bash
 python example_lrnnls_spectral_challenges.py
+```
+
+### Running MATLAB scripts
+
+MATLAB scripts, such as `cvxpy_verify_general_solution_of_lrnnls.m`, can be executed as follows:
+
+#### 1. Open MATLAB and navigate to the script directory
+
+#### 2. Initialize CVX
+```matlab
+cvx_setup
+```
+
+#### 3. Run the script
+```matlab
+cvxpy_verify_general_solution_of_lrnnls
 ```
