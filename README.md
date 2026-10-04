@@ -1,6 +1,6 @@
 # LRMP
 
-This repository provides code for Laplacian-Regularized Minimization Problems (LRMPs), with a focus on the Laplacian-Regularized Nonnegative Least-Squares (LR-NNLS) problem. It implements a Difference-of-Convex Regularizer (DCR) graph learning framework that approximates the spectral action of the Laplacian pseudoinverse without explicitly computing matrix inverses. Numerical experiments demonstrate improved accuracy and robust performance across different graph topologies.
+This repository provides code for Laplacian-Regularized Minimization Problems (LRMPs), with a focus on Laplacian-Regularized Nonnegative Least Squares (LR-NNLS). It implements a Difference-of-Convex Regularizer (DCR) framework that learns a reusable approximation of the graph Laplacian pseudoinverse and incorporates it as a graph-aware preconditioner for constrained primal optimization. Numerical experiments evaluate solution accuracy, time-to-accuracy, pseudoinverse approximation strategies, and cross-instance reuse across different graph topologies and scales. For the content details, please refer to our paper "Difference-of-Convex Regularization for Graph Learning by Differentiable Programming" (https://doi.org/10.48550/arXiv.2608.12757).
 
 ---
 
